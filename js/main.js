@@ -75,15 +75,15 @@ $(document).ready(function() {
   //  Typed Js
   // ========================================================================= //
 
-  // var typed = $(".typed");
+  var typed = $(".typed");
 
-  // $(function() {
-  //   typed.typed({
-  //     strings: ["", "", "Developer.", "Freelancer.", "Photographer"],
-  //     typeSpeed: 100,
-  //     loop: true,
-  //   });
-  // });
+  $(function() {
+    typed.typed({
+      strings: ["Technical Product Manager"],
+      typeSpeed: 100,
+      loop: false,
+    });
+  });
 
 
   // ========================================================================= //
